@@ -1,0 +1,517 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    /*CSS for header*/
+.header{
+
+    height: 70px;
+    width: 100%;
+    /* background-color:#1e88e5; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+}
+.container{
+
+    height: auto;
+    width: 90%;
+    display: flex;
+
+}
+.header_container{
+
+    justify-content: space-between;
+
+}
+.logo{
+
+    height: 70px;
+    width: 15%;
+    font-size: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    justify-content: start;
+    line-height: 70px;
+
+}
+.nav{
+
+    height: 70px;
+    width: 35%;
+    display: flex;
+
+}
+.nav_item{
+
+    width: 20%;
+    height: 70px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+
+}
+.nav_item:hover{
+
+    background-color: white;
+    color:#1e88e5 ;
+
+}
+.banner{
+
+    height: 95vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    color: white;
+
+}
+.overlay{
+
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+
+}
+.banner_text{
+
+    height: 300px;
+    width: 50%;
+    background-color:  rgba(30, 136, 229, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.padd{
+
+    padding: 30px;
+
+}
+.banner_title{
+
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+.banner_btn{
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.banner_desc{
+
+    margin-bottom: 30px;
+
+}
+.banner_btn:hover{
+
+    background-color: #1e88e5;
+    color: rgba(30,136,229,1);
+
+}
+.services{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.services_container{
+    
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.service{
+
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+
+}
+.service_ing{
+
+    height: 400px;
+    width: 40%;
+    display: flex;
+    overflow: hidden;
+
+}
+.service_details{
+
+    height: 400px;
+    width: 60%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.service_padd{
+
+    padding: 20px;
+}
+.service_btn{
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(30,136,229,1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.service_btn:hover{
+
+    background-color: #1e88e5;
+    color: rgba(30, 136, 229, 0.5);
+
+}
+.service_title{
+
+    margin-bottom: 15px;
+
+}
+.service_desc{
+
+    margin-bottom: 30px;
+
+}
+.about{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+
+}
+.about_container{
+
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+
+}
+.start_text{
+
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+
+}
+.highlight{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    color: #e0e0e0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 136, 229, 1)
+
+}
+.high_ele{
+
+    width: 22%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.high_title{
+
+    text-align: center;
+    font-size: 50px;
+}
+.high_desc{
+
+    text-align: center;
+    font-size: 20px;
+}
+.highlight_container{
+
+    justify-content: space-between;
+}
+.quote{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+
+}
+.quote_container{
+
+    flex-direction: column;
+    align-items: center;
+
+}
+.quote_title{
+
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+.quote_btn{
+
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(30,136,229,1);
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote_btn:hover{
+
+    background-color: #1e88e5;
+    color: rgba(30, 136, 229, 0.5);
+}
+.portfolio{
+
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.portfolio_container{
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.project{
+
+    width: 25%;
+    height: 200px;
+    background-color: rosybrown;
+    display: flex;
+    
+}
+.project_1{
+
+    background-image: url(images/clothing.jpg);
+    background-size: cover;
+    background-image: center;
+
+}
+.project_2{
+
+    background-image: url(images/hills.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    background-image: center;
+
+}
+.project_3{
+
+    background-image: url(images/cryptocoins.jpg);
+    background-size: cover;
+    background-image:center;
+
+}
+.project_4{
+
+    background-image: url(images/restaurant.jpg);
+    background-size: cover;
+    align-items: flex-end;
+
+}
+.project_5{
+
+    background-image: url(images/football.jpg);
+    background-size: cover;
+    background-image: center;
+
+}
+.project_6{
+
+    background-image: url(images/library.jpg);
+    background-size: cover;
+    align-items: flex-end;
+    background-image: center;
+
+
+}
+.project_7{
+
+    background-image: url(images/airlines.jpg);
+    background-size: cover;
+
+}
+.project_8{
+
+    background-image: url(images/music.jpg);
+    background-size: cover;
+    align-items: flex-end;
+
+}
+.project_title{
+
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(30, 136, 229, 0.5);
+    text-indent: 20px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: .4s;
+}
+.project_title:hover{
+
+    height: 200px;
+
+}
+.footer{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #232222;
+    display: flex;
+    justify-content: center;
+
+}
+.footer_child{
+
+    height: 300px;
+    width: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer_logo{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+
+}
+.footer_child_1{
+
+    color: white;
+    font-size: 20px;
+
+}
+.first{
+
+    font-size: 25px;
+
+}
+li{
+
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+
+}
+ul{
+
+    margin-top: 30px;
+
+}
+.footer_child_4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_icon{
+
+    height: 50px;
+    width: 50px;
+    color: white;
+
+}
+.social_container{
+
+    justify-content: space-between;
+    width: 70%;
+
+}
+.si1{
+
+    background-image: url(images/fb.png);
+    background-size: cover;
+
+}
+.si2{
+
+    background-image: url(images/google.png);
+    background-size: cover;
+
+}
+.si3{
+
+    background-image: url(images/linkedin.png);
+    background-size: cover;
+
+}
+.si4{
+
+    background-image: url(images/insta.png);
+    background-size: cover;
+
+}
